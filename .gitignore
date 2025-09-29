@@ -7,10 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+Dependencies.toml
+
+# Build output
 dist
 dist-ssr
+target/
+generated/
+
+# Local config
 *.local
+Config.toml
+#!**/tests/Config.toml
 
 # Editor directories and files
 .vscode/*
